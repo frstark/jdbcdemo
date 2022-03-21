@@ -577,8 +577,16 @@ siehe MySqlCourseRepository
 
 
 # AUFGABE 4: JDBC UND DAO – STUDENTEN
-Erstellung der Entitiy
-
+- Erstellung der Entitiy
+- Setter Absicherung example:
+![](.doc_images/ce8ccd5a.png)
+- Erstellung des Repo, hier sind 3 studentenspezifische Methoden enthalten, die dann in der MySqlStudentRepository implementiert werden.
+![](.doc_images/15c0a00d.png)
+- (Die Suche nach ID ist bereits im BaseRepository enthalten)
+  - Connection erstellen:
+![](.doc_images/d045a36c.png)
+  - implementierung der Repository
+![](.doc_images/8f37e6e6.png)
 
 
 
